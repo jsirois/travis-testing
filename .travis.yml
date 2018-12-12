@@ -1,0 +1,6 @@
+language: minimal
+before_install:
+  - BOB=bob
+script:
+  - echo "BOB: $BOB"
+
