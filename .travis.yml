@@ -1,6 +1,11 @@
 language: minimal
+env:
+  - JACK="jack"
 before_install:
-  - BOB=bob
+  - BOB="bob"
+  - export JANE="jane"
 script:
-  - echo "BOB: $BOB"
+  - echo "BOB: ${BOB}"
+  - echo "JANE: ${JANE}"
+  - echo "JACK: ${JACK}"
 
