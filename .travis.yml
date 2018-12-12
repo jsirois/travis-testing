@@ -5,7 +5,7 @@ before_install:
   - BOB="bob"
   - export JANE="jane"
 script:
-  - echo "BOB: ${BOB}"
-  - echo "JANE: ${JANE}"
-  - echo "JACK: ${JACK}"
+  - "echo BOB: ${BOB}"
+  - "echo JANE: ${JANE}"
+  - "echo JACK: ${JACK}"
 
